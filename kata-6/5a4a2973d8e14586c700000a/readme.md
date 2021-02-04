@@ -12,5 +12,6 @@ hasSubpattern("aaaa") === "a"; //just one character repeated
 hasSubpattern("abcd") === "abcd"; //base pattern equals the string itself, no repetitions
 hasSubpattern("babababababababa") === "ab"; //remember to return the base string sorted
 hasSubpattern("bbabbaaabbaaaabb") === "ab"; //same as above, just shuffled
-If you liked it, go for either the previous kata or the next kata of the series!
 ```
+
+If you liked it, go for either the previous kata or the next kata of the series!
