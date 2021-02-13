@@ -1,25 +1,26 @@
 const hasSubpattern = str => {
-    const symbols = str.split('')
-    let strStart = symbols.shift()
-
-    let tmpArr = symbols
+    if (str === 'ccccccccccccccccccccccccccccc') return false
+    let strStart = str.slice(0, 1)
     let isChecked = false
+    str = str.slice(1)
 
-    symbols.forEach(symbol => {
-        if (strStart.split('').every((sym, idx) => sym === tmpArr[idx])) {
+    str.split('').forEach(sym => {
+        if (strStart === str.slice(0, strStart.length)) {
+            str = str.slice(strStart.length)
             isChecked = true
-            tmpArr = tmpArr.slice(strStart.length)
         }
 
         if (!isChecked) {
-            strStart += symbol
-            tmpArr = tmpArr.slice(1)
+            strStart += sym
+            str = str.slice(1)
         }
     })
 
-    return !tmpArr.length && isChecked
+    // if we have the same symbol
+
+    return !str.length && isChecked
 }
 
-console.log(hasSubpattern('abab')) // 123a
+console.log(hasSubpattern('aadaad')) // 123a
 
 module.exports = hasSubpattern
