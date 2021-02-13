@@ -1,5 +1,4 @@
 const hasSubpattern = str => {
-    if (str === 'ccccccccccccccccccccccccccccc') return false
     let strStart = str.slice(0, 1)
     let isChecked = false
     str = str.slice(1)
