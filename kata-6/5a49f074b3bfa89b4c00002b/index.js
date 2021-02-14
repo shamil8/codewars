@@ -1,7 +1,12 @@
 const hasSubpattern = str => {
-    let strStart = str.slice(0, 1)
+    if (str.length <= 1) return false
+
+    const regex = new RegExp(`^(${str.slice(0, 1)})+`, 'g')
+    let [ strStart ] = str.match(regex)
     let isChecked = false
-    str = str.slice(1)
+    str = str.slice(strStart.length)
+
+    if (!str.length) return true
 
     str.split('').forEach(sym => {
         if (strStart === str.slice(0, strStart.length)) {
@@ -15,11 +20,9 @@ const hasSubpattern = str => {
         }
     })
 
-    // if we have the same symbol
-
     return !str.length && isChecked
 }
 
-console.log(hasSubpattern('aadaad')) // 123a
+console.log(hasSubpattern('aaaaadaaaaad')) // true
 
 module.exports = hasSubpattern
