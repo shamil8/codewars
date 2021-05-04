@@ -4,8 +4,8 @@ import hasSubpattern from './index.js'
 const assert = chai.assert
 chai.config.truncateThreshold = 0
 
-describe("Basic tests", function() {
-    it("should test", function() {
+describe('Basic tests for kata-6/hasSubpatternThird', () => {
+    it('should test', () => {
         assert.equal("a", "a")
         assert.equal(hasSubpattern("aaaa"), "a")
         assert.equal(hasSubpattern("abcd"), "abcd")

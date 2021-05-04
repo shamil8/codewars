@@ -1,11 +1,11 @@
-const chai = require('chai')
+import chai from 'chai'
+import digitize from './index.js'
+
 const assert = chai.assert
-chai.config.truncateThreshold=0
+chai.config.truncateThreshold = 0
 
-const digitize = require('./index')
-
-describe("Basic tests", function() {
-    it("should test", function() {
-        assert.deepEqual(digitize(35231),[1,3,2,5,3])
+describe('Basic tests for kata-8/digitize', () => {
+    it('should test', () => {
+        assert.deepEqual(digitize(35231),[1, 3, 2, 5, 3])
     })
 })
