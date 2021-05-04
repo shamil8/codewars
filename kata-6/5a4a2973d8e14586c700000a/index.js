@@ -1,4 +1,4 @@
-hasSubpattern = (str) => {
+const hasSubpattern = (str) => {
     return str
         .toLowerCase()
         .split('')
@@ -7,6 +7,4 @@ hasSubpattern = (str) => {
         .join('')
 }
 
-console.log(hasSubpattern('111222333Aaa')) // 123a
-
-module.exports = hasSubpattern
+export default hasSubpattern

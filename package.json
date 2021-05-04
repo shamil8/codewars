@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node main.js",
     "dev": "nodemon --inspect main.js",
-    "test": "mocha ./kata-6/5a49f074b3bfa89b4c00002b/test.js"
+    "test": "mocha test.js"
   },
   "repository": "https://github.com/shamil8/codewars.git",
   "author": "Shamil Qurbonov <qurbonovshamil@gmail.com>",
