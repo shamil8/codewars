@@ -23,6 +23,4 @@ const hasSubpattern = str => {
     return !str.length && isChecked
 }
 
-console.log(hasSubpattern('aaaaadaaaaad')) // true
-
-module.exports = hasSubpattern
+export default hasSubpattern

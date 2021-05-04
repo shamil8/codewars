@@ -1,15 +1,20 @@
 {
-  "name": "codewars-tasks",
+  "name": "codewars",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Codewars tasks",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "start": "node main.js",
+    "dev": "nodemon --inspect main.js",
+    "test": "mocha ./kata-6/5a49f074b3bfa89b4c00002b/test.js"
   },
+  "repository": "https://github.com/shamil8/codewars.git",
+  "author": "Shamil Qurbonov <qurbonovshamil@gmail.com>",
   "keywords": ["codewars", "task", "kata", "js", "javascript", "es6"],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "chai": "^4.3.0",
     "mocha": "^8.2.1"
   }
