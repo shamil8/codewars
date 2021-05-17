@@ -1,12 +1,9 @@
-Write a function, `persistence`, that takes in a positive parameter `num` and returns its multiplicative persistence, which is the number of times you must multiply the digits in `num` until you reach a single digit.
+# Multiples of 3 or 5
 
-For example:
-```javascript
-persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
-// and 4 has only one digit
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
-// 1*2*6 = 12, and finally 1*2 = 2
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
 
-persistence(4) === 0 // because 4 is already a one-digit number
-```
+Note: If the number is a multiple of both 3 and 5, only count it once. Also, if a number is negative, return 0(for languages that do have them)
+
+Courtesy of projecteuler.net
