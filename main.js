@@ -5,9 +5,12 @@ import decodeMorse from './kata-6/54b724efac3d5402db00065e/index.js'
 import findOdd from './kata-6/54da5a58ea159efa38000836/index.js'
 import solution from './kata-6/514b92a657cdc65150000006/index.js'
 import sumOfDigits from './kata-6/541c8630095125aba6000c00/index.js'
+import arrayDiff from './kata-6/523f5d21c841566fde000009/index.js'
 
 console.clear()
-console.log('sumOfDigits', sumOfDigits(942))
+console.log('arrayDiff', arrayDiff([1,2],[1]))
+//
+// console.log('sumOfDigits', sumOfDigits(942))
 //
 // console.log('solution', solution(10))
 //
