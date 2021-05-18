@@ -6,10 +6,11 @@ import findOdd from './kata-6/54da5a58ea159efa38000836/index.js'
 import solution from './kata-6/514b92a657cdc65150000006/index.js'
 import sumOfDigits from './kata-6/541c8630095125aba6000c00/index.js'
 import arrayDiff from './kata-6/523f5d21c841566fde000009/index.js'
-import iqTest from './kata-6/552c028c030765286c00007d/index.js'
+// import iqTest from './kata-6/552c028c030765286c00007d/index.js'
+import findOutlier from './kata-6/552c028c030765286c00007d/index.js'
 
 console.clear()
-console.log('iqTest', iqTest('2 4 7 8 10'))
+console.log('iqTest', findOutlier([160, 3, 1719, 19, 11, 13, -21]))
 //
 // console.log('arrayDiff', arrayDiff([1,2],[1]))
 //

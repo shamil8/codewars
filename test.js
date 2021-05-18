@@ -7,7 +7,8 @@ import './kata-6/54da5a58ea159efa38000836/test.js' // findOdd tests
 import './kata-6/514b92a657cdc65150000006/test.js' // Multiples of 3 or 5 tests
 import './kata-6/541c8630095125aba6000c00/test.js' // Multiples of 3 or 5 tests
 import './kata-6/523f5d21c841566fde000009/test.js' // Array.diff tests
-import './kata-6/552c028c030765286c00007d/test.js' // Array.diff tests
+import './kata-6/552c028c030765286c00007d/test.js' // IQ Test tests
+import './kata-6/5526fc09a1bbd946250002dc/test.js' // Find The Parity Outlier tests
 
 
 // kata-8
