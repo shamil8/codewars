@@ -9,9 +9,12 @@ import arrayDiff from './kata-6/523f5d21c841566fde000009/index.js'
 import iqTest from './kata-6/552c028c030765286c00007d/index.js'
 import findOutlier from './kata-6/552c028c030765286c00007d/index.js'
 import spinWords from './kata-6/5264d2b162488dc400000001/index.js'
+import alphabetPosition from './kata-6/546f922b54af40e1e90001da/index.js'
 
 console.clear()
-console.log('spinWords', spinWords('This is another test'))
+console.log('alphabetPosition', alphabetPosition('2|q?8;o?'))
+//
+// console.log('spinWords', spinWords('This is another test'))
 //
 // console.log('findOutlier', findOutlier([160, 3, 1719, 19, 11, 13, -21]))
 //
