@@ -18,3 +18,4 @@ import './kata-6/54bf1c2cd5b56cc47f0007a1/test.js' // Counting Duplicates
 import './kata-6/54b42f9314d9229fd6000d9c/test.js' // Duplicate Encoder
 import './kata-6/517abf86da9663f1d2000003/test.js' // Convert string to camel case
 import './kata-6/53368a47e38700bd8300030d/test.js' // Format a string of names like 'Bart, Lisa & Maggie'.
+import './kata-6/578aa45ee9fd15ff4600090d/test.js' // Sort the odd

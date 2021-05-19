@@ -15,9 +15,12 @@ import uniqueInOrder from './kata-6/54e6533c92449cc251001667/index.js'
 import duplicateEncode from './kata-6/54b42f9314d9229fd6000d9c/index.js'
 import toCamelCase from './kata-6/517abf86da9663f1d2000003/index.js'
 import list from './kata-6/53368a47e38700bd8300030d/index.js'
+import sortOdd from './kata-6/578aa45ee9fd15ff4600090d/index.js'
 
 console.clear()
-console.log('list', list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]))
+console.log('sortOdd', sortOdd([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]))
+//
+// console.log('list', list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]))
 //
 // console.log('toCamelCase', toCamelCase('the-stealth-warrior'))
 //
