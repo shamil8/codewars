@@ -9,6 +9,7 @@ import './kata-6/541c8630095125aba6000c00/test.js' // Multiples of 3 or 5 tests
 import './kata-6/523f5d21c841566fde000009/test.js' // Array.diff tests
 import './kata-6/552c028c030765286c00007d/test.js' // IQ Test tests
 import './kata-6/5526fc09a1bbd946250002dc/test.js' // Find The Parity Outlier tests
+import './kata-6/5264d2b162488dc400000001/test.js' // Stop gninnipS My sdroW!
 
 
 // kata-8

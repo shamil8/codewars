@@ -6,11 +6,16 @@ import findOdd from './kata-6/54da5a58ea159efa38000836/index.js'
 import solution from './kata-6/514b92a657cdc65150000006/index.js'
 import sumOfDigits from './kata-6/541c8630095125aba6000c00/index.js'
 import arrayDiff from './kata-6/523f5d21c841566fde000009/index.js'
-// import iqTest from './kata-6/552c028c030765286c00007d/index.js'
+import iqTest from './kata-6/552c028c030765286c00007d/index.js'
 import findOutlier from './kata-6/552c028c030765286c00007d/index.js'
+import spinWords from './kata-6/5264d2b162488dc400000001/index.js'
 
 console.clear()
-console.log('iqTest', findOutlier([160, 3, 1719, 19, 11, 13, -21]))
+console.log('spinWords', spinWords('This is another test'))
+//
+// console.log('findOutlier', findOutlier([160, 3, 1719, 19, 11, 13, -21]))
+//
+// console.log('iqTest', iqTest('1 2 1 1'))
 //
 // console.log('arrayDiff', arrayDiff([1,2],[1]))
 //
