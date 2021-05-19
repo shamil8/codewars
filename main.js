@@ -12,9 +12,12 @@ import spinWords from './kata-6/5264d2b162488dc400000001/index.js'
 import alphabetPosition from './kata-6/546f922b54af40e1e90001da/index.js'
 import duplicateCount from './kata-6/54bf1c2cd5b56cc47f0007a1/index.js'
 import uniqueInOrder from './kata-6/54e6533c92449cc251001667/index.js'
+import duplicateEncode from './kata-6/54b42f9314d9229fd6000d9c/index.js'
 
 console.clear()
-console.log('uniqueInOrder', uniqueInOrder('AAAABBBCCDAABBB'))
+console.log('duplicateEncode', duplicateEncode('recede'))
+//
+// console.log('uniqueInOrder', uniqueInOrder('AAAABBBCCDAABBB'))
 //
 // console.log('duplicateCount', duplicateCount('aabBcde'))
 //
