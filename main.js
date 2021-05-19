@@ -14,9 +14,12 @@ import duplicateCount from './kata-6/54bf1c2cd5b56cc47f0007a1/index.js'
 import uniqueInOrder from './kata-6/54e6533c92449cc251001667/index.js'
 import duplicateEncode from './kata-6/54b42f9314d9229fd6000d9c/index.js'
 import toCamelCase from './kata-6/517abf86da9663f1d2000003/index.js'
+import list from './kata-6/53368a47e38700bd8300030d/index.js'
 
 console.clear()
-console.log('toCamelCase', toCamelCase('the-stealth-warrior'))
+console.log('list', list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]))
+//
+// console.log('toCamelCase', toCamelCase('the-stealth-warrior'))
 //
 // console.log('duplicateEncode', duplicateEncode('recede'))
 //
