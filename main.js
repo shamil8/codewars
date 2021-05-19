@@ -10,9 +10,12 @@ import iqTest from './kata-6/552c028c030765286c00007d/index.js'
 import findOutlier from './kata-6/552c028c030765286c00007d/index.js'
 import spinWords from './kata-6/5264d2b162488dc400000001/index.js'
 import alphabetPosition from './kata-6/546f922b54af40e1e90001da/index.js'
+import duplicateCount from './kata-6/54bf1c2cd5b56cc47f0007a1/index.js'
 
 console.clear()
-console.log('alphabetPosition', alphabetPosition('2|q?8;o?'))
+console.log('duplicateCount', duplicateCount('aabBcde'))
+//
+// console.log('alphabetPosition', alphabetPosition('2|q?8;o?'))
 //
 // console.log('spinWords', spinWords('This is another test'))
 //

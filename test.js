@@ -14,3 +14,4 @@ import './kata-6/552c028c030765286c00007d/test.js' // IQ Test tests
 import './kata-6/5526fc09a1bbd946250002dc/test.js' // Find The Parity Outlier tests
 import './kata-6/5264d2b162488dc400000001/test.js' // Stop gninnipS My sdroW!
 import './kata-6/546f922b54af40e1e90001da/test.js' // Replace With Alphabet Position
+import './kata-6/54bf1c2cd5b56cc47f0007a1/test.js' // Counting Duplicates
