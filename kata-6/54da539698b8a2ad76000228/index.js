@@ -1,12 +1,9 @@
-const isValidWalk = walk => {
-    if (!walk || !walk.length || walk.length !== 10) { return false }
+const isValidWalk = walk => walk
+    .reduce((acc, v, i) => {
+        acc[v === 'w' || v === 'e' ? 'x' : 'y'] += v === 'w' || v === 's' ? 1 : -1
 
-    return walk.reduce((acc, v, idx) => {
-        acc[v === 'w' || v === 'e' ? 'w' : 's'] += v === 'w' || v === 's' ? 1 : -1
-
-        return idx === walk.length - 1 ? Object.values(acc).filter(v => v !== 0).length === 0 : acc
-    }, { w: 0, s: 0 })
-}
+        return i === walk.length - 1 ? walk.length === 10 && acc.x === 0 && acc.y === 0 : acc
+    }, { x: 0, y: 0 })
 
 const bestIsValidWalk = walk => {
     let dx = 0
@@ -24,4 +21,4 @@ const bestIsValidWalk = walk => {
     return walk.length === 10 && dx === 0 && dy === 0
 }
 
-export default bestIsValidWalk
+export default isValidWalk
