@@ -18,9 +18,13 @@ import list from './kata-6/53368a47e38700bd8300030d/index.js'
 import sortOdd from './kata-6/578aa45ee9fd15ff4600090d/index.js'
 import isValidWalk from './kata-6/54da539698b8a2ad76000228/index.js'
 import findUniq from './kata-6/585d7d5adb20cf33cb000235/index.js'
+import findLetter from './kata-6/5839edaa6754d6fec10000a2/index.js'
+import findMissingLetter from "./kata-6/5839edaa6754d6fec10000a2/index.js";
 
 console.clear()
-console.log('findUniq', findUniq([ 0, 0, 0.55, 0, 0 ]))
+console.log('findMissingLetter', findMissingLetter(['O','Q','R','S']))
+//
+// console.log('findUniq', findUniq([ 0, 0, 0.55, 0, 0 ]))
 //
 // console.log('isValidWalk', isValidWalk([ 'n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 'n' ]))
 //
