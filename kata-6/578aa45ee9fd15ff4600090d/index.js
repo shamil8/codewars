@@ -1,11 +1,11 @@
-const sortOdd = nums => nums.map((n, idx) => {
-    if (n % 2) {
-        const odd = nums.find((num, i) => num % 2 && i !== idx)
-        if (n !== odd || n > odd) {
-            n = odd
-        }
-    }
-    return n
-})
+const sortArray = nums => {
+    const odds = nums.filter(n => n % 2).sort((a, b) => a - b)
 
-export default sortOdd
+    return nums.map(n => {
+        n % 2 && (n = odds.shift())
+
+        return n
+    })
+}
+
+export default sortArray

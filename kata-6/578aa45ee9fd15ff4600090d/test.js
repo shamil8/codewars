@@ -1,18 +1,13 @@
 import chai from 'chai'
-import list from './index.js'
+import sortArray from './index.js'
 
-const Test = chai.assert
 chai.config.truncateThreshold = 0
+const assert = chai.assert
 
-describe('Basic tests for kata-6/53368a47e38700bd8300030d', () => {
-    it('Format a string of names like \'Bart, Lisa & Maggie\'.', () => {
-        Test.equal(list([{name: 'Bart'},{name: 'Lisa'},{name: 'Maggie'},{name: 'Homer'},{name: 'Marge'}]), 'Bart, Lisa, Maggie, Homer & Marge',
-            "Must work with many names")
-        Test.equal(list([{name: 'Bart'},{name: 'Lisa'},{name: 'Maggie'}]), 'Bart, Lisa & Maggie',
-            "Must work with many names")
-        Test.equal(list([{name: 'Bart'},{name: 'Lisa'}]), 'Bart & Lisa',
-            "Must work with two names")
-        Test.equal(list([{name: 'Bart'}]), 'Bart', "Wrong output for a single name")
-        Test.equal(list([]), '', "Must work with no names")
+describe('Basic tests for kata-6/578aa45ee9fd15ff4600090d', () => {
+    it('Sort the odd', () => {
+        assert.deepEqual(sortArray([5, 3, 2, 8, 1, 4]), [1, 3, 2, 8, 5, 4])
+        assert.deepEqual(sortArray([5, 3, 1, 8, 0]), [1, 3, 5, 8, 0])
+        assert.deepEqual(sortArray([]),[])
     })
 })

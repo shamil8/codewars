@@ -18,7 +18,7 @@ import list from './kata-6/53368a47e38700bd8300030d/index.js'
 import sortOdd from './kata-6/578aa45ee9fd15ff4600090d/index.js'
 
 console.clear()
-console.log('sortOdd', sortOdd([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]))
+console.log('sortOdd', sortOdd([1, 11, 2, 8, 3, 4, 5]))
 //
 // console.log('list', list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]))
 //
