@@ -20,3 +20,4 @@ import './kata-6/517abf86da9663f1d2000003/test.js' // Convert string to camel ca
 import './kata-6/53368a47e38700bd8300030d/test.js' // Format a string of names like 'Bart, Lisa & Maggie'.
 import './kata-6/578aa45ee9fd15ff4600090d/test.js' // Sort the odd
 import './kata-6/54da539698b8a2ad76000228/test.js' // Take a Ten Minute Walk
+import './kata-6/585d7d5adb20cf33cb000235/test.js' // Find the unique number
