@@ -16,9 +16,12 @@ import duplicateEncode from './kata-6/54b42f9314d9229fd6000d9c/index.js'
 import toCamelCase from './kata-6/517abf86da9663f1d2000003/index.js'
 import list from './kata-6/53368a47e38700bd8300030d/index.js'
 import sortOdd from './kata-6/578aa45ee9fd15ff4600090d/index.js'
+import isValidWalk from './kata-6/54da539698b8a2ad76000228/index.js'
 
 console.clear()
-console.log('sortOdd', sortOdd([1, 11, 2, 8, 3, 4, 5]))
+console.log('isValidWalk', isValidWalk([ 'n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 'n' ]))
+//
+// console.log('sortOdd', sortOdd([1, 11, 2, 8, 3, 4, 5]))
 //
 // console.log('list', list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]))
 //
