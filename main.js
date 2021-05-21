@@ -24,9 +24,12 @@ import songDecoder from "./kata-6/551dc350bf4e526099000ae5/index.js";
 import "./kata-6/587731fda577b3d1b0001196/index.js"; // CamelCase method from property
 import diamond from "./kata-6/5503013e34137eeeaa001648/index.js";
 import titleCase from "./kata-6/5202ef17a402dd033c000009/index.js";
+import isPrime from "./kata-6/5262119038c0985a5b00029f/index.js";
 
 console.clear()
-console.log('titleCase:', titleCase('THE WIND IN THE WILLOWS', 'The In'))  // CamelCase method from property
+console.log('isPrime:', isPrime(1))
+//
+// console.log('titleCase:', titleCase('THE WIND IN THE WILLOWS', 'The In'))
 //
 // console.log('diamond')
 // console.log(diamond(23))
