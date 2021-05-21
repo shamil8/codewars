@@ -24,3 +24,4 @@ import './kata-6/585d7d5adb20cf33cb000235/test.js' // Find the unique number
 import './kata-6/5839edaa6754d6fec10000a2/test.js' // Find the missing letter
 import './kata-6/551dc350bf4e526099000ae5/test.js' // Dubstep
 import './kata-6/587731fda577b3d1b0001196/test.js' // CamelCase Method from property
+import './kata-6/5503013e34137eeeaa001648/test.js' // Give me a Diamond
