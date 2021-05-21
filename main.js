@@ -21,9 +21,12 @@ import findUniq from './kata-6/585d7d5adb20cf33cb000235/index.js'
 import findLetter from './kata-6/5839edaa6754d6fec10000a2/index.js'
 import findMissingLetter from "./kata-6/5839edaa6754d6fec10000a2/index.js";
 import songDecoder from "./kata-6/551dc350bf4e526099000ae5/index.js";
+import "./kata-6/587731fda577b3d1b0001196/index.js"; // CamelCase method from property
 
 console.clear()
-console.log('songDecoder', songDecoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB'))
+console.log('shamil kurbonov'.camelCase())  // CamelCase method from property
+//
+// console.log('songDecoder', songDecoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB'))
 //
 // console.log('findMissingLetter', findMissingLetter(['O','Q','R','S']))
 //
