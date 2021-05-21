@@ -20,9 +20,12 @@ import isValidWalk from './kata-6/54da539698b8a2ad76000228/index.js'
 import findUniq from './kata-6/585d7d5adb20cf33cb000235/index.js'
 import findLetter from './kata-6/5839edaa6754d6fec10000a2/index.js'
 import findMissingLetter from "./kata-6/5839edaa6754d6fec10000a2/index.js";
+import songDecoder from "./kata-6/551dc350bf4e526099000ae5/index.js";
 
 console.clear()
-console.log('findMissingLetter', findMissingLetter(['O','Q','R','S']))
+console.log('songDecoder', songDecoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB'))
+//
+// console.log('findMissingLetter', findMissingLetter(['O','Q','R','S']))
 //
 // console.log('findUniq', findUniq([ 0, 0, 0.55, 0, 0 ]))
 //

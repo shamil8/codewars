@@ -22,3 +22,4 @@ import './kata-6/578aa45ee9fd15ff4600090d/test.js' // Sort the odd
 import './kata-6/54da539698b8a2ad76000228/test.js' // Take a Ten Minute Walk
 import './kata-6/585d7d5adb20cf33cb000235/test.js' // Find the unique number
 import './kata-6/5839edaa6754d6fec10000a2/test.js' // Find the missing letter
+import './kata-6/551dc350bf4e526099000ae5/test.js' // Dubstep
