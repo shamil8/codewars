@@ -27,3 +27,4 @@ import './kata-6/587731fda577b3d1b0001196/test.js' // CamelCase Method from prop
 import './kata-6/5503013e34137eeeaa001648/test.js' // Give me a Diamond
 import './kata-6/5202ef17a402dd033c000009/test.js' // Title Case
 import './kata-6/5262119038c0985a5b00029f/test.js' // Is a number prime?
+import './kata-6/52c31f8e6605bcc646000082/test.js' // Two Sum

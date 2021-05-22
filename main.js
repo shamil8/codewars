@@ -25,9 +25,12 @@ import "./kata-6/587731fda577b3d1b0001196/index.js"; // CamelCase method from pr
 import diamond from "./kata-6/5503013e34137eeeaa001648/index.js";
 import titleCase from "./kata-6/5202ef17a402dd033c000009/index.js";
 import isPrime from "./kata-6/5262119038c0985a5b00029f/index.js";
+import twoSum from "./kata-6/52c31f8e6605bcc646000082/index.js";
 
 console.clear()
-console.log('isPrime:', isPrime(2))
+console.log('twoSum:', twoSum([2, 5, 5, 11], 10))
+//
+// console.log('isPrime:', isPrime(2))
 //
 // console.log('titleCase:', titleCase('THE WIND IN THE WILLOWS', 'The In'))
 //
