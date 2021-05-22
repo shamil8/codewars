@@ -1,5 +1,9 @@
-const isPrime = n => n <= 2
-    ? [...new Array(n)].filter((_, i) => n % (i + 1) === 0).length > 2
-    : false
+const isPrime = n => {
+    for(let i = 2, s = Math.sqrt(n); i <= s; i++) {
+        if(n % i === 0) { return false }
+    }
+
+    return n > 1
+}
 
 export default isPrime
