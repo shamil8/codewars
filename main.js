@@ -1,3 +1,7 @@
+//kata-7
+import strongNum from "./kata-7/5a4d303f880385399b000001/index.js";
+
+// kata-6
 import hasSubpattern from './kata-6/5a49f074b3bfa89b4c00002b/index.js'
 import hasSubpatternThird from './kata-6/5a4a2973d8e14586c700000a/index.js'
 import persistence from './kata-6/55bf01e5a717a0d57e0000ec/index.js'
@@ -28,7 +32,9 @@ import isPrime from "./kata-6/5262119038c0985a5b00029f/index.js";
 import twoSum from "./kata-6/52c31f8e6605bcc646000082/index.js";
 
 console.clear()
-console.log('twoSum:', twoSum([2, 5, 5, 11], 10))
+console.log('strongNum:', strongNum(1))
+//
+// console.log('twoSum:', twoSum([2, 5, 5, 11], 10))
 //
 // console.log('isPrime:', isPrime(2))
 //

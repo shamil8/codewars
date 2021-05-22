@@ -1,6 +1,9 @@
 // kata-8
 import './kata-8/5583090cbe83f4fd8c000051/test.js' // digitize tests
 
+// kata-7
+import './kata-7/5a4d303f880385399b000001/test.js' // Strong Number (Special Numbers Series #2)
+
 // kata-6
 import './kata-6/5a49f074b3bfa89b4c00002b/test.js' // hasSubpattern tests
 // import './kata-6/5a4a2973d8e14586c700000a/test.js' // hasSubpatternThird tests TODO:: NEED TO CHECK!
