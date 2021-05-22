@@ -32,9 +32,12 @@ import isPrime from "./kata-6/5262119038c0985a5b00029f/index.js";
 import twoSum from "./kata-6/52c31f8e6605bcc646000082/index.js";
 import countBits from "./kata-6/526571aae218b8ee490006f4/index.js";
 import tribonacci from "./kata-6/556deca17c58da83c00002db/index.js";
+import comp from "./kata-6/550498447451fbbd7600041c/index.js";
 
 console.clear()
-console.log('tribonacci:', tribonacci([8, 16, 18], 3))
+console.log('comp:', comp([121, 144, 19, 161, 19, 144, 19, 11], [121, 14641, 20736, 361, 25921, 361, 20736, 361]))
+//
+// console.log('tribonacci:', tribonacci([8, 16, 18], 3))
 //
 // console.log('countBits:', countBits(5272253551))
 //

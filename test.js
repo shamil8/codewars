@@ -33,3 +33,4 @@ import './kata-6/5262119038c0985a5b00029f/test.js' // Is a number prime?
 import './kata-6/52c31f8e6605bcc646000082/test.js' // Two Sum
 import './kata-6/526571aae218b8ee490006f4/test.js' // Bit Counting
 import './kata-6/556deca17c58da83c00002db/test.js' // Tribonacci Sequence
+import './kata-6/550498447451fbbd7600041c/test.js' // Are they the "same"?
