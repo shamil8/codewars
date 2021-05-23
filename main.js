@@ -35,9 +35,12 @@ import tribonacci from "./kata-6/556deca17c58da83c00002db/index.js";
 import comp from "./kata-6/550498447451fbbd7600041c/index.js";
 import countChar from "./kata-6/52efefcbcdf57161d4000091/index.js";
 import digPow from "./kata-6/5552101f47fc5178b1000050/index.js";
+import findEvenIndex from "./kata-6/5679aa472b8f57fb8c000047/index.js";
 
 console.clear()
-console.log('digPow:', digPow(89, 1))
+console.log('sumIdx:', findEvenIndex([20,10,-80,10,10,15,35]))
+//
+// console.log('digPow:', digPow(89, 1))
 //
 // console.log('countChar:', countChar('aba'))
 //
