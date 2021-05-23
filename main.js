@@ -34,9 +34,12 @@ import countBits from "./kata-6/526571aae218b8ee490006f4/index.js";
 import tribonacci from "./kata-6/556deca17c58da83c00002db/index.js";
 import comp from "./kata-6/550498447451fbbd7600041c/index.js";
 import countChar from "./kata-6/52efefcbcdf57161d4000091/index.js";
+import digPow from "./kata-6/5552101f47fc5178b1000050/index.js";
 
 console.clear()
-console.log('countChar:', countChar('aba'))
+console.log('digPow:', digPow(89, 1))
+//
+// console.log('countChar:', countChar('aba'))
 //
 // console.log('comp:', comp([121, 144, 19, 161, 19, 144, 19, 11], [121, 14641, 20736, 361, 25921, 361, 20736, 361]))
 //

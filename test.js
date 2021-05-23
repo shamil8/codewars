@@ -35,4 +35,4 @@ import './kata-6/526571aae218b8ee490006f4/test.js' // Bit Counting
 import './kata-6/556deca17c58da83c00002db/test.js' // Tribonacci Sequence
 import './kata-6/550498447451fbbd7600041c/test.js' // Are they the "same"?
 import './kata-6/52efefcbcdf57161d4000091/test.js' // Count characters in your string
-
+import './kata-6/5552101f47fc5178b1000050/test.js' // Playing with digits
