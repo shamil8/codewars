@@ -38,9 +38,12 @@ import digPow from "./kata-6/5552101f47fc5178b1000050/index.js";
 import findEvenIndex from "./kata-6/5679aa472b8f57fb8c000047/index.js";
 import isPangram from "./kata-6/545cedaa9943f7fe7b000048/index.js";
 import deleteNth from "./kata-6/554ca54ffa7d91b236000023/index.js";
+import countSmileys from "./kata-6/583203e6eb35d7980400002a/index.js";
 
 console.clear()
-console.log('deleteNth:', deleteNth([1,1,3,3,7,2,2,2,2], 3))
+console.log('countSmileys:', countSmileys([ ':---)', '))', ';~~D', ';D' ]))
+//
+// console.log('deleteNth:', deleteNth([1,1,3,3,7,2,2,2,2], 3))
 //
 // console.log('isPangram:', isPangram('Is it a big deal!'))
 //
