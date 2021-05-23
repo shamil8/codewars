@@ -38,3 +38,4 @@ import './kata-6/52efefcbcdf57161d4000091/test.js' // Count characters in your s
 import './kata-6/5552101f47fc5178b1000050/test.js' // Playing with digits
 import './kata-6/5679aa472b8f57fb8c000047/test.js' // Equal Sides Of An Array
 import './kata-6/545cedaa9943f7fe7b000048/test.js' // Detect Pangram
+import './kata-6/554ca54ffa7d91b236000023/test.js' // Delete occurrences of an element if it occurs more than n times
