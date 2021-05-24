@@ -41,3 +41,4 @@ import './kata-6/545cedaa9943f7fe7b000048/test.js' // Detect Pangram
 import './kata-6/554ca54ffa7d91b236000023/test.js' // Delete occurrences of an element if it occurs more than n times
 import './kata-6/583203e6eb35d7980400002a/test.js' // Count the smiley faces!
 import './kata-6/550554fd08b86f84fe000a58/test.js' // Which are in?
+import './kata-6/5842df8ccbd22792a4000245/test.js' // Write Number in Expanded Form

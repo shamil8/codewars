@@ -40,9 +40,12 @@ import isPangram from "./kata-6/545cedaa9943f7fe7b000048/index.js";
 import deleteNth from "./kata-6/554ca54ffa7d91b236000023/index.js";
 import countSmileys from "./kata-6/583203e6eb35d7980400002a/index.js";
 import inArray from "./kata-6/550554fd08b86f84fe000a58/index.js";
+import expandedForm from "./kata-6/5842df8ccbd22792a4000245/index.js";
 
 console.clear()
-console.log('inArray:', inArray(["xyz", "live", "strong"], ["lively", "alive", "harp", "sharp", "armstrong"]))
+console.log('expandedForm:', expandedForm(70304))
+//
+// console.log('inArray:', inArray(["xyz", "live", "strong"], ["lively", "alive", "harp", "sharp", "armstrong"]))
 //
 // console.log('countSmileys:', countSmileys([ ':---)', '))', ';~~D', ';D' ]))
 //
