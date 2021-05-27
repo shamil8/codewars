@@ -42,3 +42,4 @@ import './kata-6/554ca54ffa7d91b236000023/test.js' // Delete occurrences of an e
 import './kata-6/583203e6eb35d7980400002a/test.js' // Count the smiley faces!
 import './kata-6/550554fd08b86f84fe000a58/test.js' // Which are in?
 import './kata-6/5842df8ccbd22792a4000245/test.js' // Write Number in Expanded Form
+import './kata-6/5626b561280a42ecc50000d1/test.js' // Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
