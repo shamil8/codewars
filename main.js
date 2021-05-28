@@ -42,9 +42,12 @@ import countSmileys from "./kata-6/583203e6eb35d7980400002a/index.js";
 import inArray from "./kata-6/550554fd08b86f84fe000a58/index.js";
 import expandedForm from "./kata-6/5842df8ccbd22792a4000245/index.js";
 import sumDigPow from "./kata-6/5626b561280a42ecc50000d1/index.js";
+import lastSurvivors from "./kata-6/60a1aac7d5a5fc0046c89651/index.js";
 
 console.clear()
-console.log('sumDigPow:', sumDigPow(10, 100))
+console.log('lastSurvivors:', lastSurvivors(''))
+//
+// console.log('sumDigPow:', sumDigPow(10, 100))
 //
 // console.log('expandedForm:', expandedForm(70304))
 //
